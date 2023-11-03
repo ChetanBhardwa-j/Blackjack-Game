@@ -1,0 +1,68 @@
+/* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial, */
+/* color: #f7e8d3; */
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial;
+  color: #f7e8d3;
+  background-color: #414a4c;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-img-content {
+  background-image: url(./casino-7260767.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  height: 100vh;
+
+  text-align: center;
+}
+
+.section-container {
+  position: relative;
+}
+.section-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+  width: 100%;
+}
+
+.heading {
+  font-size: 50px;
+  text-align: center;
+}
+
+.para {
+  display: block;
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.btn-content {
+  text-align: center;
+}
+.btn {
+  background-color: #f7e8d3;
+  color: #414a4c;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 32px;
+  width: 250px;
+  margin-bottom: 40px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.para-el {
+  font-size: 25px;
+}
